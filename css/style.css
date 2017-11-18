@@ -1,0 +1,267 @@
+
+/*======= Reset ======== */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #496174;
+  background: #fff;
+  font-size: 14px;
+  line-height: 22px;
+  overflow-x:hidden;
+}
+
+::selection{
+  background: rgba(249, 230, 5, 0.5);
+  color: #496174;
+}
+
+::-moz-selection {
+  background: rgba(249, 230, 5, 0.5);
+  color: #496174;
+}
+
+a:hover,a:focus,.a:active {
+  text-decoration: none;
+  outline: none !important;
+}
+
+
+/* == Header === */
+
+.header-title-box {
+  padding-top: 150px;
+  padding-bottom: 130px
+}
+
+.header-title-box h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+
+
+/* Back to top */
+.back-to-top {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  display: none;
+  text-align: center;
+  z-index: 10000;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #496174;
+}
+
+.back-to-top i {
+  color: #fff;
+  font-size: 22px;
+  display: block;
+  line-height: 30px;
+}
+
+
+/*======= Helper classes ======== */
+.section {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.sub-title {
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.title {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-muted {
+  color: #95A8B7;
+}
+
+.text-light {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.bg-light {
+  background-color: #f3f6fa;
+  border-top: 1px solid #E6EDF3;
+  border-bottom: 1px solid #E6EDF3;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-t-0 {
+  margin-top: 0px !important;
+}
+
+.m-b-0 {
+  margin-bottom: 0px;
+}
+
+.p-0 {
+  padding: 0px !important;
+}
+
+.w-full {
+  width: 100% !important;
+}
+
+/*======= Buttons ======= */
+.btn {
+  border-radius: 2px;
+  padding: 8px 16px;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-sm {
+  padding: 5px 10px !important;
+}
+
+.btn-white-fill {
+  padding: 8px 24px !important;
+  background-color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.75) !important;
+  border-radius: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.btn-white-fill:hover {
+  border: 2px solid rgba(255, 255, 255, 0.75) !important;
+  background-color: transparent;
+  color: #ffffff !important;
+}
+
+.btn-white-bordered {
+  padding: 8px 24px !important;
+  background-color: transparent !important;
+  border: 2px solid rgba(255, 255, 255, 0.75) !important;
+  color: #ffffff;
+  border-radius: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.btn-white-bordered:hover {
+  background-color: #ffffff !important;
+}
+
+.btn-custom {
+  padding: 8px 24px !important;
+  color: #ffffff !important;
+  border-radius: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.btn-custom:hover {
+  background-color: transparent !important;
+}
+
+
+/* Modals */
+.modal .modal-dialog .modal-content {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border-color: #DDDDDD;
+  border-radius: 2px;
+  box-shadow: none;
+  padding: 25px;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+  border-bottom-width: 2px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+}
+
+.modal .modal-dialog .modal-content .modal-body {
+  padding: 20px 0;
+}
+
+.modal .modal-dialog .modal-content .modal-footer {
+  padding: 0;
+  padding-top: 15px;
+}
+
+
+
+/*=======  Footer =======*/
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #2f3e47;
+}
+
+/* === 12.4 JOB ===*/
+.job-box {
+  padding: 20px 30px;
+  background-color: #f3f6fa;
+  border: 1px solid #E6EDF3;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.job-box h5 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.btn-job {
+  padding: 6px 20px !important;
+  font-size: 12px;
+  text-transform: none;
+  margin-top: 10px;
+}
+
+
+
+/*======= 13. Responsive ======*/
+@media (min-width: 768px) {
+  .nav-custom-left {
+    margin-left: 5%;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .no-padding.img,.no-padding.img-2 {
+    position: relative;
+    height: 300px;
+  }
+  .video-wrapper {
+    padding-top: 50px;
+  }
+  .intro-form {
+    margin-top: 50px;
+  }
+  .feat-description {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
